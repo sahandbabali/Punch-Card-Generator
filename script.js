@@ -80,7 +80,7 @@ textarea.addEventListener("input", function (e) {
     });
 
     // update text preview
-    let temptext = e.target.value
+    let temptext = convertToUpperCase(e.target.value)
     // console.log(temptext)
     // textpreview.innerText = temptext
 
@@ -220,3 +220,8 @@ captureButton.addEventListener('click', () => {
         downloadLink.click();
     });
 });
+
+
+function convertToUpperCase(inputString) {
+    return inputString.toUpperCase();
+}
