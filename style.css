@@ -1,0 +1,96 @@
+#cardbox {
+  font-family: "Courier New", Courier, monospace; /* Use a monospaced font */
+  width: 100%;
+  height: 500px;
+  font-size: 1.3rem;
+  background-color: #caaf78;
+  font-weight: 600;
+  background-image: url(./brown-texture.jpg);
+  background-size: cover;
+}
+
+#cardnums span {
+  margin-left: 0.15rem;
+}
+#textpreview {
+  min-height: 32px;
+}
+#textpreview span {
+  margin-left: 0.15rem;
+}
+#textpreview,
+#cardnums {
+  padding-left: 1rem;
+}
+/* 
+.folded-corner {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  padding: 20px;
+}
+
+.folded-corner::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 50px 50px 0;
+  border-color: transparent transparent white transparent;
+  transform: rotate(90deg); 
+} */
+body {
+  background-color: #f0f0f0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Customize Bootstrap Primary Button */
+.btn-primary {
+  background-color: #4897e4 !important; /* Primary Button Background Color */
+  border-color: #4897e4 !important; /* Primary Button Border Color */
+  color: #ffffff !important; /* Primary Button Text Color */
+}
+
+/* Customize Bootstrap Secondary Button */
+.btn-secondary {
+  background-color: #ff5733 !important; /* Secondary Button Background Color (e.g., Orange) */
+  border-color: #ff5733 !important; /* Secondary Button Border Color */
+  color: #ffffff !important; /* Secondary Button Text Color */
+}
+
+/* Style Button Hover and Focus */
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #357abd !important; /* Primary Button Hover/Focus Background Color */
+  border-color: #357abd !important; /* Primary Button Hover/Focus Border Color */
+}
+
+.btn-secondary:hover,
+.btn-secondary:focus {
+  background-color: #ff4500 !important; /* Secondary Button Hover/Focus Background Color */
+  border-color: #ff4500 !important; /* Secondary Button Hover/Focus Border Color */
+}
+
+/* Customize Bootstrap Navbar */
+.navbar {
+  background-color: #4897e4 !important; /* Navbar Background Color */
+  color: #ffffff !important; /* Navbar Text Color */
+}
+
+/* Style Navbar Links */
+.navbar a {
+  color: #ffffff !important; /* Navbar Link Text Color */
+}
+
+/* Change Navbar Hover Color */
+/* .navbar a:hover {
+  color: #357abd !important; 
+} */
